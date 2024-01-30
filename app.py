@@ -28,7 +28,7 @@ else:
     faiss.write_index(index, index_file)
 
 # Example query
-query_vector = vectorizer.transform(["Hello FAISS"]).toarray()
+query_vector = vectorizer.transform(["Hello Zerbra"]).toarray()
 
 # Perform a search for the top k similar items
 k = 2  # Number of nearest neighbors
